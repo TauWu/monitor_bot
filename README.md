@@ -31,7 +31,9 @@ monitor_bot | 2018-04-28 | TauWoo | 基于WebQQ,WebWechat协议的监控机器�
 
 ## 部署说明
 ### 1.**系统支持**
-- [ ] Linux
+- [x] Linux
+> - [x] Ubuntu
+> - [ ] CentOS
 - [ ] Windows
 - [ ] OSX
 
@@ -54,3 +56,20 @@ pip3 install gevent
 pip3 install qqbot
 pip3 install wxpy
 ```
+
+### 3.**目录结构**
+目录名 | 介绍
+:--- | ---
+util | 工具代码
+util/common | 通用基础工具
+util/extension | 针对本项目的基础工具
+module | 功能模块代码
+module/logic | 逻辑处理代码
+module/base | 基础操作代码
+module/base/constant | 常量存放代码
+module/base/db | 数据库操作代码
+module/base/rds | Redis操作代码
+module/base/ser | 请求服务操作代码
+module/extension | 工具性质代码
+log | 日志模块输出
+database | 数据库建表语句
