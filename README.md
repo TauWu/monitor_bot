@@ -69,7 +69,7 @@ module/base | 基础操作代码
 module/base/constant | 常量存放代码
 module/base/db | 数据库操作代码
 module/base/rds | Redis操作代码
-module/base/ser | 请求服务操作代码
+module/base/web | 请求服务操作代码
 module/extension | 工具性质代码
 log | 日志模块输出
 database | 数据库建表语句
